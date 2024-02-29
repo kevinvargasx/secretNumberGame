@@ -9,7 +9,7 @@ titulo.innerHTML = "Juego del número secreto";
 let numeroSecreto = 0;
 let intentos = 0;
 let listasNumerosSorteados =[];
-let numeroMaximo = 4;
+let numeroMaximo = 10;
 
 function asignarTextoElemento(elemento, texto){
     let elementoHTML = document.querySelector(elemento);
